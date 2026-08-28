@@ -75,3 +75,122 @@ header {
 .btn-login:hover {
     background: #1d4ed8;
 }
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 600px;
+
+    padding: 70px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.subtitle {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    display: block;
+    color: #2563eb;
+}
+
+.description {
+    color: #6b7280;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    text-decoration: none;
+
+    padding: 13px 24px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: white;
+    background: #2563eb;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-secondary {
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.btn-secondary:hover {
+    background: #eff6ff;
+}
+
+/* Hero illustration */
+
+.hero-image {
+    width: 420px;
+    height: 420px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+
+    background: #dbeafe;
+    border-radius: 50%;
+
+    position: absolute;
+}
+
+.book {
+    position: absolute;
+    font-size: 130px;
+    z-index: 2;
+}
+
+.student {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+
+    font-size: 90px;
+    z-index: 3;
+}
