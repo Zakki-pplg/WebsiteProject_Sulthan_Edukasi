@@ -13,3 +13,65 @@ body {
     color: #1f2937;
     background: #ffffff;
 }
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+    width: 100%;
+    background: white;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2563eb;
+}
+
+.logo span {
+    color: #10b981;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #2563eb;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: white;
+    background: #2563eb;
+
+    padding: 10px 22px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #1d4ed8;
+}
