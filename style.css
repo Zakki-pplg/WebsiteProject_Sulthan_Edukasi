@@ -76,6 +76,12 @@ header {
     background: #1d4ed8;
 }
 
+.btn-secondary{
+    text-decoration: none;
+    align-items: center;
+    margin: auto;
+}
+
 /* =========================
    HERO
 ========================= */
@@ -464,4 +470,87 @@ footer {
     text-align: center;
     color: #6b7280;
     font-size: 12px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        min-width: 100%;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .book {
+        font-size: 90px;
+    }
+
+    .student {
+        font-size: 60px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-text h2 {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
 }
